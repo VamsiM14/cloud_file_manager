@@ -1,0 +1,2 @@
+[console_scripts]
+file_manager = file_manager.file_uploader_cli:cli

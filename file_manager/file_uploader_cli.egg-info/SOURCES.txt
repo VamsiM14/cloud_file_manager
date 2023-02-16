@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+file_manager/__init__.py
+file_manager/file_uploader_cli.py
+file_uploader_cli.egg-info/PKG-INFO
+file_uploader_cli.egg-info/SOURCES.txt
+file_uploader_cli.egg-info/dependency_links.txt
+file_uploader_cli.egg-info/entry_points.txt
+file_uploader_cli.egg-info/requires.txt
+file_uploader_cli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_file_uploader_cli.py
