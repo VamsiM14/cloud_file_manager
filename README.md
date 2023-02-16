@@ -1,29 +1,31 @@
-Cloud File Manager 
+## Cloud File Manager 
 
 A CLI utility app to upload files to either Amazon S3 or Google Cloud Storage
 
-Installation
+#### Installation
 
-pip install file-manager-v0.1
+`pip install file_uploader_cli-0.1-py3-none-any`
 
-Usage
+#### Usage
 
 To use the file_manager app, run:
 
-my-cli-app <command> [options]
+`file_manager [options]`
 
-Available Options
+#### Available Options
 
+```
 --config: Path to the config file.
 
 --directory: Directory from which to upload files to cloud.
+```
 
-Configuration
+#### Configuration
 
 The file_manager CLI App can be configured by creating a config.ini file in the same directory as the file_manager_cli module.
 
-sample config:
-
+#### sample config:
+```
 [s3]
 
 access_key = aws_access_key
@@ -43,9 +45,10 @@ bucket_name = gcs_bucket_name
 project_id = project_id
 
 extensions = gcs_file_extentions
+```
 
-Testing
+#### Testing
 
 To run the test suite for the file_manager CLI App, run:
 
-pytest
+`pytest`
